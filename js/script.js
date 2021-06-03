@@ -8,5 +8,9 @@
 
 // stampo numeri da uno a 100
 for(var i = 1; i < 101; i++){
+    if(i % 3 == 0){
+        console.log(i + ' Fizz');
+    } 
     console.log(i)
 }
+
