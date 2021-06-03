@@ -5,4 +5,8 @@
 // Consigli del giorno:
 // scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
-console.log('Hello world');
+
+// stampo numeri da uno a 100
+for(var i = 1; i < 101; i++){
+    console.log(i)
+}
