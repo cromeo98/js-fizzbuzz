@@ -6,7 +6,6 @@
 // scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
-// stampo numeri da uno a 100
 for(var i = 1; i < 101; i++){
     if(i % 3 == 0 && i % 5 == 0){
         console.log(i + ' FizzBuzz');
